@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #223;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 128, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 128, 0, 0.5);
+}
+
+body {
+  background-color: #223;
+  color: #eee;
+  font-family: "Fira Code";
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  margin-bottom: 200px;
+  h3 {
+    font-size: 23px;
+  }
+
+  img {
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid green;
+  }
+}
+
+.who-am-i {
+  text-align: center;
+  h1 {
+    text-decoration: underline;
+  }
+  p {
+    text-align: justify;
+
+    line-height: 1.5;
+  }
+  margin-bottom: 200px;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+.projects {
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+  text-align: center;
+  width: 90vw;
+  h1 {
+    text-decoration: underline;
+  }
+}
+.project-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.project-card {
+  border: 3px solid green;
+  width: 350px;
+
+  img {
+    width: 100%;
+    height: 70%;
+  }
+}
+
+a {
+  color: white;
+}
+
+.what-i-use {
+  h1 {
+    text-decoration: underline;
+    text-align: center;
+  }
+}
+.mobileSkills {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .who-am-i {
+    margin: 0 auto;
+    max-width: 75vw;
+  }
+  .project-card {
+    margin: 10px;
+    font-size: 10px;
+  }
+  .what-i-use {
+    display: none;
+  }
+
+  .mobileSkills {
+    display: block;
+    max-width: 70vw;
+    margin: 0 auto;
+
+    h1 {
+      text-decoration: underline;
+    }
+  }
+}
+table {
+  margin: 0 auto;
+  // max-width: 20vw;
+
+  td {
+    border: white dotted 2px;
+    padding: 15px;
+    width: 200px;
+  }
+}
+
+.open-frameworks {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.contact-me {
+  margin-top: 200px;
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+.twitter,
+.insta,
+.email {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+  background-color: darkslategray;
+}
