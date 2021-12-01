@@ -1,5 +1,7 @@
 import { FunctionComponent } from "react";
 import ProjectCard from "./ProjectCard";
+import htmlsandbox from "../../images/html-sandbox.png";
+import blog from "../../images/blog.png";
 
 interface ProjectProps {}
 
@@ -18,14 +20,14 @@ const Project: FunctionComponent<ProjectProps> = () => {
 
         <ProjectCard
           github="https://github.com/LakshmiChaitanya2008/html-sandbox"
-          image="../images/html-sandbox.png"
+          image={htmlsandbox}
           title="HTML Sandbox"
           url="https://htmlsandbox.netlify.app/"
         />
 
         <ProjectCard
           github="https://github.com/LakshmiChaitanya2008/code-with-chaitanya"
-          image="../images/blog.png"
+          image={blog}
           title="Personal Blog"
           url="https://code-with-chaitanya.vercel.app/"
         />
