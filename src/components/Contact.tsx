@@ -16,7 +16,7 @@ const Contact: FunctionComponent<ContactProps> = () => {
         <i className="fas fa-envelope email"></i>
       </a>
       <a href="https://github.com/lakshmichaitanya2008">
-       <i class="fab fa-github"></i>
+       <i className="fab fa-github"></i>
       </a>
     </div>
   );
