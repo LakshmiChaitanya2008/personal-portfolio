@@ -1,5 +1,4 @@
 import React from "react";
-import { FaLink } from "react-icons/fa";
 
 interface Technology {
   icon: React.ElementType;
