@@ -1,8 +1,7 @@
-import React from "react";
 import ProjectItem from "./ProjectItem";
-import { FaAtom, FaNodeJs, FaLeaf, FaLink } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-
+import { BiLogoReact, BiLogoMongodb } from "react-icons/bi";
 function Project() {
   return (
     <div className="mt-10 mx-auto md:max-w-4xl max-w-md h-screen flex flex-col items-center">
@@ -16,10 +15,10 @@ function Project() {
           title="Ecommerce Site"
           description="This project demonstrates a simple e-commerce application for an imaginary online store. I learned how to work with React Context, and this was my first full-stack project."
           technologies={[
-            { icon: FaAtom, label: "React" },
+            { icon: BiLogoReact, label: "React" },
             { icon: FaNodeJs, label: "Node" },
             { icon: SiExpress, label: "Express" },
-            { icon: FaLeaf, label: "MongoDB" },
+            { icon: BiLogoMongodb, label: "MongoDB" },
           ]}
           githubLink="https://github.com/LakshmiChaitanya2008/imaginary-ecommerce"
         />
@@ -27,7 +26,7 @@ function Project() {
           imgSrc="https://user-images.githubusercontent.com/72391391/246660604-f1b3eebe-06b4-4aba-abec-55fe744adae9.png"
           title="HTMLArena"
           description="Simple HTML, CSS and JavaScript Editor with SCSS, LESS, and TypeScript support! External Libraries with CDN.js"
-          technologies={[{ icon: FaAtom, label: "React" }]}
+          technologies={[{ icon: BiLogoReact, label: "React" }]}
           siteLink="https://lakshmichaitanya2008.github.io/HTMLArena/"
           githubLink="https://github.com/LakshmiChaitanya2008/htmlarena"
         />

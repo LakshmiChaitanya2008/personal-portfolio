@@ -1,5 +1,3 @@
-import React from "react";
-
 function AboutMe() {
   return (
     <div className="mt-2 mx-auto md:max-w-4xl max-w-md h-screen flex flex-col justify-center items-center">
