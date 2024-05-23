@@ -27,7 +27,7 @@ function Project() {
           title="HTMLArena"
           description="Simple HTML, CSS and JavaScript Editor with SCSS, LESS, and TypeScript support! External Libraries with CDN.js"
           technologies={[{ icon: BiLogoReact, label: "React" }]}
-          siteLink="https://lakshmichaitanya2008.github.io/HTMLArena/"
+          siteLink="https://html-arena.vercel.app"
           githubLink="https://github.com/LakshmiChaitanya2008/htmlarena"
         />
         <ProjectItem
