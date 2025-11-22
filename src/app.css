@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --color-text: #ffffff;
+  --color-background: #060705;
+  --color-primary: #d9bf99;
+  --color-secondary: #2d5b79;
+  --color-accent: #8a64c5;
+}
+
+body {
+  @apply bg-background text-text;
+  font-family: "Source Code Pro", monospace;
+}
