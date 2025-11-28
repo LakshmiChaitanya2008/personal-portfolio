@@ -5,21 +5,11 @@
     {
       title: "Frontend",
       items: [
+        { name: "JavaScript", icon: "logos:javascript" },
         { name: "React", icon: "logos:react" },
         { name: "TypeScript", icon: "logos:typescript-icon" },
-        { name: "Next.js", icon: "logos:nextjs-icon" },
-        { name: "Svelte", icon: "logos:svelte-icon" },
         { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
-        { name: "JavaScript", icon: "logos:javascript" },
-      ],
-    },
-
-    {
-      title: "Languages (Basics)",
-      items: [
-        { name: "Python", icon: "logos:python" },
-        { name: "Java", icon: "logos:java" },
-        { name: "C", icon: "logos:c" },
+        { name: "Svelte", icon: "logos:svelte-icon" },
       ],
     },
 
@@ -50,6 +40,14 @@
         { name: "Postman", icon: "logos:postman-icon" },
         { name: "VS Code", icon: "logos:visual-studio-code" },
         { name: "Linux Basics", icon: "logos:linux-tux" },
+      ],
+    },
+    {
+      title: "Languages (Basics)",
+      items: [
+        { name: "Python", icon: "logos:python" },
+        { name: "Java", icon: "logos:java" },
+        { name: "C", icon: "logos:c" },
       ],
     },
   ];

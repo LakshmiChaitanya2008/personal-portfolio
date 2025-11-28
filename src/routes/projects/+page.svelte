@@ -44,12 +44,10 @@
   <div class="max-w-4xl mx-auto mt-12 mb-16">
     <header class="mb-8">
       <p class="text-xs uppercase tracking-[0.18em] text-neutral-500 mb-2">
-        Work
+        My Projects
       </p>
       <h1 class="text-4xl font-semibold mb-2">Projects & Experiments</h1>
-      <p class="text-neutral-500 text-sm">
-        Projects, experiments & things I made along the way.
-      </p>
+      <p class="text-neutral-500 text-sm">Apps I made along the way.</p>
     </header>
 
     <section class="flex flex-col gap-5">
