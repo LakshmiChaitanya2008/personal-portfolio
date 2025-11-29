@@ -15,8 +15,8 @@
   <meta
     name="description"
     content="Portfolio Website of Lakshmi Chaitanya Chalamalasetti."
-  />
-  <link rel="canonical" href="https://lakshmichaitanya.vercel.app/" />
+  /><link rel="preconnect" href="https://ajax.googleapis.com" />
+  <link rel="preconnect" href="https://www.gstatic.com" />
   <link
     rel="preload"
     href="/fonts/source-code-pro-v31-latin-regular.woff2"
@@ -24,14 +24,6 @@
     type="font/woff2"
     crossorigin
   />
-  <link rel="preconnect" href="https://ajax.googleapis.com" />
-  <script>
-    window.addEventListener("load", () => {
-      import(
-        "https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
-      );
-    });
-  </script>
 </svelte:head>
 
 <Navbar />
