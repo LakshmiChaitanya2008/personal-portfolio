@@ -12,21 +12,22 @@
 
 <div
   class="
-    flex flex-wrap justify-center gap-6 sm:gap-10
-    text-base sm:text-lg md:text-xl
-    px-5 py-4 mt-4
+     flex flex-nowrap justify-center
+    gap-4 sm:gap-6 md:gap-10
+    text-sm xs:text-base sm:text-lg md:text-xl
+    px-3 py-4 mt-4
+    overflow-x-auto
   "
 >
   {#each navItems as item}
     <a
       href={item.href}
-      aria-current={$page.url.pathname === item.href ? "page" : undefined}
-      class="
-        transition-all cursor-pointer font-medium
-        text-neutral-300 hover:text-white
-        {$page.url.pathname === item.href ? 'text-white' : ''}
-      "
-      >{item.name}
+      class="whitespace-nowrap
+        transition-all cursor-pointer
+        hover:opacity-100"
+      style="opacity: {$page.url.pathname === item.href ? 1 : 0.45}"
+    >
+      {item.name}
     </a>
   {/each}
 </div>
