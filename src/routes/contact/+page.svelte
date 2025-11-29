@@ -52,7 +52,7 @@
 </script>
 
 <div class="min-h-screen">
-  <main class="max-w-3xl mx-auto px-5 pt-20 pb-24">
+  <main class="max-w-4xl mx-auto px-5 pt-12 pb-24">
     <header class="mb-5">
       <p class="text-xs uppercase tracking-[0.20em] text-neutral-500 mb-2">
         CONTACT

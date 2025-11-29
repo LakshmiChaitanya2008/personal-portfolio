@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 @import "tailwindcss";
 @theme {
   --color-text: #ffffff;
@@ -6,6 +5,14 @@
   --color-primary: #d9bf99;
   --color-secondary: #2d5b79;
   --color-accent: #8a64c5;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/source-code-pro-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {

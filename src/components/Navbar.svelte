@@ -20,15 +20,13 @@
   {#each navItems as item}
     <a
       href={item.href}
+      aria-current={$page.url.pathname === item.href ? "page" : undefined}
       class="
-        transition-all cursor-pointer
-        hover:opacity-100
+        transition-all cursor-pointer font-medium
+        text-neutral-300 hover:text-white
+        {$page.url.pathname === item.href ? 'text-white' : ''}
       "
-      style="
-        opacity: {$page.url.pathname === item.href ? 1 : 0.45};
-      "
-    >
-      {item.name}
+      >{item.name}
     </a>
   {/each}
 </div>

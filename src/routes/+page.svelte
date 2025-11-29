@@ -9,7 +9,7 @@
     >
       <div class="rounded-full bg-neutral-950/90 p-2">
         <model-viewer
-          src="/dog-baked.glb"
+          src="/dog2.glb"
           alt="3D model"
           camera-controls
           auto-rotate
