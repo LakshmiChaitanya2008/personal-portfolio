@@ -23,6 +23,7 @@
 	},
 	"dependencies": {
 		"@iconify/svelte": "^5.1.0",
+		"@vercel/analytics": "^1.6.1",
 		"lucide-svelte": "^0.554.0"
 	}
 }
